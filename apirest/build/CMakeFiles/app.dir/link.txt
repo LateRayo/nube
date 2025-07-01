@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/app.dir/link.d CMakeFiles/app.dir/api.cpp.o -o app  -lpthread /data/data/com.termux/files/usr/lib/libssl.so /data/data/com.termux/files/usr/lib/libcrypto.so

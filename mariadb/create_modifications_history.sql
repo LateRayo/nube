@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS modificaciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    archivo_id INT NOT NULL,
+    usuario VARCHAR(100) NOT NULL,
+    fecha DATETIME DEFAULT CURRENT_TIMESTAMP,
+    descripcion TEXT,
+    FOREIGN KEY (archivo_id) REFERENCES archivos(id) ON DELETE CASCADE
+);
